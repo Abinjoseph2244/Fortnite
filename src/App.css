@@ -1,0 +1,104 @@
+/* src/App.css */
+
+.App {
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.section {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #fff;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 200px;
+  border-radius: 0%;
+}
+.button2 {
+  padding: 10px 20px;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  border:1px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 200px;
+  border-radius: 0%;
+}
+
+.p1 {
+  text-align: center;
+  margin-top: 20px;
+  width: 300px;
+}
+
+.imageSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.imageSection img {
+  width: 400px;
+  height: 300px;
+  transition: transform 0.3s ease; /* Add a transition for smooth effect */
+}
+
+.imageSection img:hover {
+  transform: rotate(7deg); /* Rotate the image on hover */
+}
+.main{
+  width: 1200px;
+  height: 400px;
+}
+
+.title{
+  font-size: 30px;
+  text-align: center;
+}
+
+ h1{
+  text-align: center;
+}
+
+.cons{
+  text-align: center;
+}
+
+.big{
+  text-align: center;
+  font-size: 70px;
+  padding-bottom: 0%;
+}
+
+.last{
+  text-align: center;
+}
+
+
+.imageSection button1 {
+  margin: 0 50px; /* Adjust the margin between buttons */
+}
+
+/* src/App.css */
+
+/* ... (other styles) */
+
+.button:hover {
+  background-color: #000; /* Change background color on hover */
+  color: #fff; /* Change text color on hover */
+}
+
+.button2:hover {
+  background-color: #fff; /* Change background color on hover */
+  color: #000; /* Change text color on hover */
+  border: 1px solid #000; /* Change border color on hover */
+}
